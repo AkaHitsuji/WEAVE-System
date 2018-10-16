@@ -16,57 +16,57 @@ char server[] = "www.google.com";    // name address for Google (using DNS)
 // that you want to connect to (port 80 is default for HTTP):
 WiFiClient client;
 
-// Set alarm pin as 2
-int alarm = 2;
+// Set alarm pin as 14
+int alarm = 14;
 
 // the setup routine runs once when you press reset:
 void setup() {
   // initialize serial communication at 9600 bits per second:
-  Serial.begin(9600);
+  Serial.begin(115200);
   // make the pushbutton's pin an input:
   pinMode(alarm, OUTPUT);
 
-  //Initialize serial and wait for port to open:
-  Serial.begin(9600);
-  while (!Serial) {
-    ; // wait for serial port to connect. Needed for native USB port only
-  }
-
-  // check for the presence of the shield:
-  if (WiFi.status() == WL_NO_SHIELD) {
-    Serial.println("WiFi shield not present");
-    // don't continue:
-    while (true);
-  }
-
-  String fv = WiFi.firmwareVersion();
-  if (fv != "1.1.0") {
-    Serial.println("Please upgrade the firmware");
-  }
-
-  // attempt to connect to Wifi network:
-  while (status != WL_CONNECTED) {
-    Serial.print("Attempting to connect to SSID: ");
-    Serial.println(ssid);
-    // Connect to WPA/WPA2 network. Change this line if using open or WEP network:
-    status = WiFi.begin(ssid, pass);
-
-    // wait 10 seconds for connection:
-    delay(10000);
-  }
-  Serial.println("Connected to wifi");
-  printWifiStatus();
-
-  Serial.println("\nStarting connection to server...");
-  // if you get a connection, report back via serial:
-  if (client.connect(server, 80)) {
-    Serial.println("connected to server");
-    // Make a HTTP request:
-    client.println("GET /search?q=arduino HTTP/1.1");
-    client.println("Host: www.google.com");
-    client.println("Connection: close");
-    client.println();
-  }
+//  //Initialize serial and wait for port to open:
+//  Serial.begin(9600);
+//  while (!Serial) {
+//    ; // wait for serial port to connect. Needed for native USB port only
+//  }
+//
+//  // check for the presence of the shield:
+//  if (WiFi.status() == WL_NO_SHIELD) {
+//    Serial.println("WiFi shield not present");
+//    // don't continue:
+//    while (true);
+//  }
+//
+//  String fv = WiFi.firmwareVersion();
+//  if (fv != "1.1.0") {
+//    Serial.println("Please upgrade the firmware");
+//  }
+//
+//  // attempt to connect to Wifi network:
+//  while (status != WL_CONNECTED) {
+//    Serial.print("Attempting to connect to SSID: ");
+//    Serial.println(ssid);
+//    // Connect to WPA/WPA2 network. Change this line if using open or WEP network:
+//    status = WiFi.begin(ssid, pass);
+//
+//    // wait 10 seconds for connection:
+//    delay(10000);
+//  }
+//  Serial.println("Connected to wifi");
+//  printWifiStatus();
+//
+//  Serial.println("\nStarting connection to server...");
+//  // if you get a connection, report back via serial:
+//  if (client.connect(server, 80)) {
+//    Serial.println("connected to server");
+//    // Make a HTTP request:
+//    client.println("GET /search?q=arduino HTTP/1.1");
+//    client.println("Host: www.google.com");
+//    client.println("Connection: close");
+//    client.println();
+//  }
   
 }
 
@@ -75,7 +75,7 @@ void loop() {
   // write the alarm pin:
   digitalWrite(alarm,HIGH);
   Serial.println("ALARM!!");
-  delay(2000);        // delay in between reads for stability
+  delay(1000);        // delay in between reads for stability
   digitalWrite(alarm,LOW);
   Serial.println("Alarm off.");
   delay(3000);        // delay in between reads for stability
@@ -118,8 +118,3 @@ void printWifiStatus() {
   Serial.print(rssi);
   Serial.println(" dBm");
 }
-
-
-
-
-
