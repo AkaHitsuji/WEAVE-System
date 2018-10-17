@@ -2,12 +2,12 @@
 #include <ESP8266HTTPClient.h>
 #include <ArduinoJson.h>
 
-int led = 2;
+int led = 16;
 int alarm = 14;
 int trigger = 0;
 
 const char* ssid = "AndroidAP";
-const char* password = "dysonintern";
+const char* password = "dysonintern"; 
 
 void setup() 
 {
@@ -32,7 +32,7 @@ void loop()
   {
     HTTPClient http; //Object of class HTTPClient
     Serial.println("HTTP begin.");
-    http.begin("http://192.168.43.217:5000/switch");
+    http.begin("http://weave-sg.herokuapp.com/alarm");
     Serial.println("Calling GET method.");
     int httpCode = http.GET();
     Serial.print("HTTP code:");
@@ -81,6 +81,7 @@ void loop()
 }
 
 void connectWifi(){
+  WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) 
   {
