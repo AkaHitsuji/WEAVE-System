@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SCDF Emergency Hotline</title>
+  <link rel="stylesheet" href="static/site.css">
+  <link rel="manifest" href="static/manifest.json">
+</head>
+<body>
+  <div id="controls">
+    <div id="preview">
+      <p class="instructions">SCDF Emergency Hotline</p>
+      <div id="local-media"></div>
+      <button id="button-preview">Preview My Camera</button>
+      <button id="button-join">Join Room</button>
+      <button id="button-leave">Leave Room</button>
+      <div id="log"></div>
+    </div>
+
+    <!-- <div id="room-controls">
+      <p class="instructions">Room Name:</p>
+      <input id="room-name" type="text" placeholder="Enter a room name" value="hello" />
+      
+      
+    </div>
+
+    
+  </div> -->
+  <div id="remote-media"></div>
+  <script src="//media.twiliocdn.com/sdk/js/common/v0.1/twilio-common.min.js"></script>
+  <script src="//media.twiliocdn.com/sdk/js/video/releases/1.14.0/twilio-video.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="static/quickstart.js"></script>
+</body>
+</html>
