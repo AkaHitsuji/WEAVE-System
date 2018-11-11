@@ -2,7 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/AngYang/gitHub_Projects/weave-ipad/Weave-iPad.xcodeproj">
+      location = "group:/Users/AngYang/gitHub_Projects/weave-ipad/AVPlayerExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Weave-iPad.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:ObjCVideoQuickstart.xcodeproj">

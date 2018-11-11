@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs'
 
-workspace 'VideoQuickStart'
+workspace 'weave-iphone'
 platform :ios, '9.0'
 
 abstract_target 'TwilioVideo' do
@@ -9,8 +9,8 @@ abstract_target 'TwilioVideo' do
   target 'ObjCVideoQuickstart' do
     project 'ObjCVideoQuickstart.xcproject'
   end
-  
-  target 'AVPlayerExample' do
-    project 'AVPlayerExample.xcproject'
+
+  target 'weave-iPhoneproj' do
+    project 'weave-iPhoneproj.xcproject'
   end
 end

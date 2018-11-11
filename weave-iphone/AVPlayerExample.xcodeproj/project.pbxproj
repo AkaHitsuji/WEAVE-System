@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2992620D62851E26DE8DD0E7 /* libPods-TwilioVideo-weave-iPhoneproj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CABA237B7AB0ED15099650CB /* libPods-TwilioVideo-weave-iPhoneproj.a */; };
 		2AE5A73584D6443E8CF378F1 /* libPods-TwilioVideo-AVPlayerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADF115A2F3092265241628F /* libPods-TwilioVideo-AVPlayerExample.a */; };
 		2EF82385217784BD001FB6A4 /* call_end.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF82383217784BD001FB6A4 /* call_end.png */; };
 		2EF82386217784BD001FB6A4 /* call_start.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF82384217784BD001FB6A4 /* call_start.png */; };
@@ -25,7 +26,8 @@
 		2EF82383217784BD001FB6A4 /* call_end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_end.png; sourceTree = "<group>"; };
 		2EF82384217784BD001FB6A4 /* call_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_start.png; sourceTree = "<group>"; };
 		2FFB6F7D9DF4B006C8323F1C /* Pods-TwilioVideo-AVPlayerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideo-AVPlayerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioVideo-AVPlayerExample/Pods-TwilioVideo-AVPlayerExample.release.xcconfig"; sourceTree = "<group>"; };
-		8A0A1F141ECD1FFC0008C1AF /* weave-iPhoneproj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weave-iPhoneproj.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		300DD7EC89C8440BBE6C8018 /* Pods-TwilioVideo-weave-iPhoneproj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideo-weave-iPhoneproj.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioVideo-weave-iPhoneproj/Pods-TwilioVideo-weave-iPhoneproj.debug.xcconfig"; sourceTree = "<group>"; };
+		8A0A1F141ECD1FFC0008C1AF /* AVPlayerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0A1F181ECD1FFC0008C1AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A0A1F1A1ECD1FFC0008C1AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A0A1F1B1ECD1FFC0008C1AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		8A85E4961ECEA82D004719C8 /* AVPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerView.h; sourceTree = "<group>"; };
 		8A85E4971ECEA82D004719C8 /* AVPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerView.m; sourceTree = "<group>"; };
 		C54130102DA58D5C6E68C97E /* Pods-TwilioVideo-AVPlayerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideo-AVPlayerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioVideo-AVPlayerExample/Pods-TwilioVideo-AVPlayerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		CABA237B7AB0ED15099650CB /* libPods-TwilioVideo-weave-iPhoneproj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwilioVideo-weave-iPhoneproj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB99E2E29D6880B4B9287594 /* Pods-TwilioVideo-weave-iPhoneproj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideo-weave-iPhoneproj.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioVideo-weave-iPhoneproj/Pods-TwilioVideo-weave-iPhoneproj.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE5A73584D6443E8CF378F1 /* libPods-TwilioVideo-AVPlayerExample.a in Frameworks */,
+				2992620D62851E26DE8DD0E7 /* libPods-TwilioVideo-weave-iPhoneproj.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +82,7 @@
 		8A0A1F151ECD1FFC0008C1AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A0A1F141ECD1FFC0008C1AF /* weave-iPhoneproj.app */,
+				8A0A1F141ECD1FFC0008C1AF /* AVPlayerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +120,8 @@
 			children = (
 				C54130102DA58D5C6E68C97E /* Pods-TwilioVideo-AVPlayerExample.debug.xcconfig */,
 				2FFB6F7D9DF4B006C8323F1C /* Pods-TwilioVideo-AVPlayerExample.release.xcconfig */,
+				300DD7EC89C8440BBE6C8018 /* Pods-TwilioVideo-weave-iPhoneproj.debug.xcconfig */,
+				DB99E2E29D6880B4B9287594 /* Pods-TwilioVideo-weave-iPhoneproj.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				1ADF115A2F3092265241628F /* libPods-TwilioVideo-AVPlayerExample.a */,
+				CABA237B7AB0ED15099650CB /* libPods-TwilioVideo-weave-iPhoneproj.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A0A1F131ECD1FFC0008C1AF /* weave-iPhoneproj */ = {
+		8A0A1F131ECD1FFC0008C1AF /* AVPlayerExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A0A1F2B1ECD1FFC0008C1AF /* Build configuration list for PBXNativeTarget "weave-iPhoneproj" */;
+			buildConfigurationList = 8A0A1F2B1ECD1FFC0008C1AF /* Build configuration list for PBXNativeTarget "AVPlayerExample" */;
 			buildPhases = (
 				2E4115D858F24F9B6C6E3DC7 /* [CP] Check Pods Manifest.lock */,
 				8A0A1F101ECD1FFC0008C1AF /* Sources */,
@@ -144,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = "weave-iPhoneproj";
+			name = AVPlayerExample;
 			productName = AVPlayerExample;
-			productReference = 8A0A1F141ECD1FFC0008C1AF /* weave-iPhoneproj.app */;
+			productReference = 8A0A1F141ECD1FFC0008C1AF /* AVPlayerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +173,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8A0A1F0F1ECD1FFC0008C1AF /* Build configuration list for PBXProject "weave-iPhoneproj" */;
+			buildConfigurationList = 8A0A1F0F1ECD1FFC0008C1AF /* Build configuration list for PBXProject "AVPlayerExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -178,7 +186,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A0A1F131ECD1FFC0008C1AF /* weave-iPhoneproj */,
+				8A0A1F131ECD1FFC0008C1AF /* AVPlayerExample */,
 			);
 		};
 /* End PBXProject section */
@@ -210,7 +218,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TwilioVideo-AVPlayerExample-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TwilioVideo-weave-iPhoneproj-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -223,7 +231,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TwilioVideo-AVPlayerExample/Pods-TwilioVideo-AVPlayerExample-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-TwilioVideo-weave-iPhoneproj/Pods-TwilioVideo-weave-iPhoneproj-frameworks.sh",
 				"${PODS_ROOT}/TwilioVideo/Build/iOS/TwilioVideo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -232,7 +240,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwilioVideo-AVPlayerExample/Pods-TwilioVideo-AVPlayerExample-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwilioVideo-weave-iPhoneproj/Pods-TwilioVideo-weave-iPhoneproj-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -366,7 +374,7 @@
 		};
 		8A0A1F2C1ECD1FFC0008C1AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C54130102DA58D5C6E68C97E /* Pods-TwilioVideo-AVPlayerExample.debug.xcconfig */;
+			baseConfigurationReference = 300DD7EC89C8440BBE6C8018 /* Pods-TwilioVideo-weave-iPhoneproj.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W7W42AEBB4;
@@ -374,7 +382,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SpeechToText",
 				);
-				INFOPLIST_FILE = AVPlayerExample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/project files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rev.weave;
@@ -384,7 +392,7 @@
 		};
 		8A0A1F2D1ECD1FFC0008C1AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FFB6F7D9DF4B006C8323F1C /* Pods-TwilioVideo-AVPlayerExample.release.xcconfig */;
+			baseConfigurationReference = DB99E2E29D6880B4B9287594 /* Pods-TwilioVideo-weave-iPhoneproj.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W7W42AEBB4;
@@ -392,7 +400,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SpeechToText",
 				);
-				INFOPLIST_FILE = AVPlayerExample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/project files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rev.weave;
@@ -403,7 +411,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A0A1F0F1ECD1FFC0008C1AF /* Build configuration list for PBXProject "weave-iPhoneproj" */ = {
+		8A0A1F0F1ECD1FFC0008C1AF /* Build configuration list for PBXProject "AVPlayerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A0A1F291ECD1FFC0008C1AF /* Debug */,
@@ -412,7 +420,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A0A1F2B1ECD1FFC0008C1AF /* Build configuration list for PBXNativeTarget "weave-iPhoneproj" */ = {
+		8A0A1F2B1ECD1FFC0008C1AF /* Build configuration list for PBXNativeTarget "AVPlayerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A0A1F2C1ECD1FFC0008C1AF /* Debug */,

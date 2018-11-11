@@ -5,6 +5,9 @@
       location = "group:/Users/AngYang/gitHub_Projects/weave-iphone/weave-iPhoneproj.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:/Users/AngYang/gitHub_Projects/WEAVE-System/weave-iphone/AVPlayerExample.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ObjCVideoQuickstart.xcodeproj">
    </FileRef>
    <FileRef

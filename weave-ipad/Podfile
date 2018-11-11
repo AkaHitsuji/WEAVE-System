@@ -9,8 +9,8 @@ abstract_target 'TwilioVideo' do
   target 'ObjCVideoQuickstart' do
     project 'ObjCVideoQuickstart.xcproject'
   end
-  
-  target 'AVPlayerExample' do
-    project 'AVPlayerExample.xcproject'
+
+  target 'Weave-iPad' do
+    project 'Weave-iPad.xcproject'
   end
 end

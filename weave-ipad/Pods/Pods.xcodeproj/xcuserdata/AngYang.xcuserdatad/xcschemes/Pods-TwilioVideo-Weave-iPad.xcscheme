@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BA649C0D132C768C4B891213F6C472EC"
-               BlueprintName = "Pods-TwilioVideo-AVPlayerExample"
+               BlueprintIdentifier = "15615512874FAB1BC002F0ADD2D93A8A"
+               BlueprintName = "Pods-TwilioVideo-Weave-iPad"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-TwilioVideo-AVPlayerExample.a">
+               BuildableName = "libPods-TwilioVideo-Weave-iPad.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
